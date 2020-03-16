@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url("{{backgroundUrl}}");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+
+  <div class="w3-display-middle" style= "
+                color:white; 
+                background-color: rgb(0,0,0); 
+                background-color: rgba(0,0,0, 0.3);">
+    <h1 class="w3-jumbo w3-animate-top">Select your image</h1>
+
+    <hr class="w3-border-grey" style="margin:auto;width:100%">
+
+    <form action="/upload-image" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label style="font-size: 25px; position: middle">The image should show your face clearly</label>
+        <hr class="w3-border-grey" style="margin:auto;width:90%">
+        <div>
+          <input type="file" class="custom-file-input" name="image" id="image" style="position: center">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="position: center">Upload</button>
+    </form>
+  </div>
+
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
+</body>
+</html>

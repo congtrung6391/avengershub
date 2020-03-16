@@ -1,0 +1,41 @@
+{
+"Robert Downey Jr.": [{
+    "name": "Robert Downey Jr.", 
+    "role": "Tony Stark/Iron Man"
+    }], 
+"Chris Evans": [{
+    "name": "Chris Evans", 
+    "role": "Steve Rogers/Captain America"
+    }],
+"Brie Larson": [{
+     "name": "Brie Larson", 
+     "role": "Carol Danvers/Captain Marvel"
+     }], 
+"Chris Hemsworth": [{
+    "name": "Chris Hemsworth", 
+    "role": "Thor"
+    }], 
+"Mark Ruffalo": [{
+    "name": "Mark Ruffalo", 
+    "role": "Bruce Banner/Hulk"
+    }], 
+"Scarlett Johansson": [{
+    "name": "Scarlett Johansson", 
+    "role": "Natasha Romanoff/Black Widow"
+    }], 
+"Jeremy Renner": [{
+    "name": "Jeremy Renner", 
+    "role": "Clint Barton/Hawkeye"
+    }],
+"Benedict Cumberbatch": [{
+    "name": "Benedict Cumberbatch", 
+    "role": "Dr. Stephen Strange/Doctor Strange"
+    }], 
+"Tom Holland": [{
+        "name": "Tom Holland", 
+        "role": "Peter Parker/Spider-Man"
+    }], 
+"Elizabeth Olsen": [{
+    "name": "Elizabeth Olsen", 
+    "role": "Wanda Maximoff/Scarlet Witch"
+}]}
