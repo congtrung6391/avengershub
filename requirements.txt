@@ -2,7 +2,7 @@ opencv-python
 flask==1.1.1
 h5py==2.10.0
 keras==2.3.1
-numpy==1.18.1
+numpy==1.22.0
 pillow==4.0.0
 scipy==1.4.1
 tensorflow==1.14.0
