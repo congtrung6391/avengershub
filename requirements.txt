@@ -6,6 +6,6 @@ numpy==1.18.1
 pillow==4.0.0
 scipy==1.4.1
 tensorflow==1.14.0
-werkzeug==1.0.0
+werkzeug==2.2.3
 gunicorn
 mtcnn
